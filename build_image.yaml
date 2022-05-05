@@ -1,0 +1,8 @@
+---
+- name: Create images
+  hosts:
+  tasks:
+  - name: Build image
+    docker_image:
+       path: <path of my Dockerfile>
+       name: web_image

@@ -1,0 +1,7 @@
+---
+- name: pull nginx image
+  hosts:
+  tasks:
+  - name: pull
+    docker_image:
+       name: nginx
